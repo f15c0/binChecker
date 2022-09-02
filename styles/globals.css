@@ -11,6 +11,57 @@ a {
   text-decoration: none;
 }
 
+input[type="search"]{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button{
+  padding: 10px;
+  border-radius: 5px;
+  background: #ddd;
+  border: 1px solid #ddd;
+  margin: 2px;
+}
+
+.bin-form{
+  
+}
+
+.table-items{
+  color:rgb(26, 20, 20);
+  padding: 10px;
+  max-width: 1200;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+}
+
+.table-head{
+  
+  grid-column: span 1;
+}
+
+thead th{
+ 
+  padding:0 20px;
+  margin: 10px;
+  border-bottom: 2px solid rgb(28, 7, 7);
+}
+tbody td{
+  padding:0 22px;
+  margin: 20px;
+  background: rgb(223, 220, 220);
+}
+.table-data{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+button:hover{
+  background: #ccc;
+}
+
 * {
   box-sizing: border-box;
 }
